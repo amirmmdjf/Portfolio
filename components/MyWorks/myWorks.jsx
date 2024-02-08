@@ -4,10 +4,10 @@ import { FaCode, FaDesktop, FaLayerGroup, FaMobileAlt, FaPaintBrush, FaMagic } f
 const MyWorks = ({ defaultLanguage }) => {
 
     return (
-        <div className="px-[150px] mb-[80px]">
-            <h1 className={"text-5xl font-bold mb-[90px] text-center" }>{defaultLanguage ? 'کارهای من' : 'My works'}</h1>
-            <div className="flex flex-wrap">
-
+        <div className="px-[150px] mb-[80px] max-[750px]:px-[0px]">
+            <h1 className={"text-5xl font-bold mb-[90px] text-center max-[1140px]-mt[50px]" }>{defaultLanguage ? 'کارهای من' : 'My works'}</h1>
+            
+            <div className="flex flex-wrap max-[1140px]:justify-center">
                 <WorkCard
                     icon={<FaDesktop />}
                     title={defaultLanguage ? 'طراحی سایت' : 'Website design'}

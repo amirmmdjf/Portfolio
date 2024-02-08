@@ -1,7 +1,7 @@
 
 const WorkCard = ({ defaultLanguage, icon, title, description, }) => {
     return (
-        <div className={"flex flex-col w-[350px] h-[380px] rounded m-4 mx-6 box-shadow-2 p-10 hover:pt-7 transition-all duration-500 " + (!defaultLanguage && " items-end")}>
+        <div className={"flex flex-col w-[350px] h-[380px] rounded m-4 mx-6 max-[800px]:mx-2 box-shadow-2 p-10  hover:pt-7 transition-all duration-500 " + (!defaultLanguage && " items-end")}>
             <div className="text-[48px] text-sky-500">
                 {icon}
             </div>

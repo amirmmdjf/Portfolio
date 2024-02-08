@@ -16,11 +16,11 @@ const Contact = ({ defaultLanguage }) => {
     return (
         <div id="contact" className="mt-50 mb-[100px]">
             <h1 className="text-center text-[40px] py-5 pb-12 font-semibold">{defaultLanguage ? 'راه های ارتباطی' : 'Ways of communication'}</h1>
-            <p className="text-center text-[26px] text-sky-500">{defaultLanguage ? 'شبکه های اجتماعی من': 'My social networks'}</p>
+            <p className="text-center text-[26px] text-sky-500">{defaultLanguage ? 'شبکه های اجتماعی من' : 'My social networks'}</p>
             <div>
-                <ul className="flex justify-center flex-row-reverse mt-20">
+                <ul className="flex flex-wrap justify-center flex-row-reverse mt-20">
                     {socialData.map((item, index) => (
-                        <li key={index} className=" box-shadow-2 mx-5 px-10 py-3 cursor-pointer bg-[#efedec] hover:bg-white transition duration-300 text-black rounded-lg">
+                        <li key={index} className=" box-shadow-2 mx-5 px-10 py-3 max-[900px]:my-3 cursor-pointer bg-[#efedec] hover:bg-white transition duration-300 text-black rounded-lg">
                             <a href={item.url} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center justify-center">
                                 <Image src={item.logo} alt={item.title} width={100} height={100} />
                                 <h2 className="text-[18px] font-semibold pt-2">{item.title}</h2>
@@ -28,7 +28,7 @@ const Contact = ({ defaultLanguage }) => {
                         </li>
                     ))}
                 </ul>
-                <h2 className="text-center bg-[#efedec] mt-20 text-black max-w-fit m-auto px-8 py-3 rounded-lg box-shadow-2">My Email: <span className="font-semibold">amirmmdjf2006@gmail.com</span></h2>
+                <h2 className="text-center bg-[#efedec] mt-20 text-black max-w-fit m-auto px-8 max-[600px]:w-[400px] max-[600px]:bg-transparent max-[600px]:text-white max-[600px]:shadow-none max-[600px]:mt-16  py-3 rounded-lg box-shadow-2">{!defaultLanguage ? ':My Email' : 'ایمیل من:' }<h3 className="font-semibold pt-2">amirmmdjf2006@gmail.com</h3></h2>
             </div>
         </div>
     );

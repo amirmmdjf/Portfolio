@@ -25,7 +25,7 @@ const Biography = ({ defaultLanguage }) => {
                     }
                     </p>
 
-                    <div className="mt-5 max-[1140px]:mt-10 max-[1140px]:flex max-[1140px]:flex-col max-[1140px]:items-center">
+                    <div className="mt-5 max-[1140px]:mt-10 max-[1140px]:flex max-[1140px]:flex-col max-[1140px]:mb-5  max-[1140px]:items-center">
                         <h4 className={'font-extralight max-[1140px]:text-center' + (!defaultLanguage && ' text-left ')}>
                             {defaultLanguage ? 'شبکه های اجتماعی من:' : ':My social media'}
                         </h4>

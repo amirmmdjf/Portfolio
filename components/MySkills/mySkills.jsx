@@ -22,15 +22,17 @@ const MySkills = ({ defaultLanguage }) => {
 
     return (
         <div id="my-skills" className="mb-[70px]">
-            <h1 className="text-center text-[40px] py-5 pb-12 font-semibold">{defaultLanguage ? 'ابزار هایی که من استفاده میکنم' : 'The tools I use'}</h1>
+            <h1 className="text-center text-[40px]  py-5 pb-12 font-semibold">{defaultLanguage ? 'ابزار هایی که من استفاده میکنم' : 'The tools I use'}</h1>
             <ul className="flex flex-wrap  justify-center">
                 {mySkills.map((item) => (
                     <li key={item.title}
-                        className=" bg-[#efedec] ml-10 mr-10 mt-5 mb-10 rounded-lg px-10 
-                    text-black w-[300px] flex flex-col justify-center items-center box-shadow-2"
+                        className=" bg-[#efedec]  ml-11 mr-11 mt-5 mb-10 rounded-lg px-10 
+                    text-black w-[300px] h-[250px] flex flex-col justify-center items-center box-shadow-2"
                     >
-                        <Image src={item.image} height={150} width={150}  />
-                        <h2 className="font-semibold my-3 text-gray-800">{item.title}</h2>
+                        <div className="w-[150px] h-[150px] flex items-center">
+                            <Image src={item.image} height={150} width={150} />
+                        </div>
+                        <h2 className="font-semibold my-3 mt-6 text-gray-800">{item.title}</h2>
                     </li>
                 ))}
             </ul>
