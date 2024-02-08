@@ -28,7 +28,10 @@ const Contact = ({ defaultLanguage }) => {
                         </li>
                     ))}
                 </ul>
-                <h2 className="text-center bg-[#efedec] mt-20 text-black max-w-fit m-auto px-8 max-[600px]:w-[400px] max-[600px]:bg-transparent max-[600px]:text-white max-[600px]:shadow-none max-[600px]:mt-16  py-3 rounded-lg box-shadow-2">{!defaultLanguage ? ':My Email' : 'ایمیل من:' }<h3 className="font-semibold pt-2">amirmmdjf2006@gmail.com</h3></h2>
+                <div className="text-center bg-[#efedec] mt-20 text-black text-[24px] max-w-fit m-auto px-8 max-[600px]:w-[400px] max-[600px]:bg-transparent max-[600px]:text-white max-[600px]:shadow-none max-[600px]:mt-10  py-3 rounded-lg box-shadow-2">
+                    {!defaultLanguage? ':My E-mail' : 'ایمیل من:'}
+                    <h3 className="font-semibold pt-2">amirmmdjf2006@gmail.com</h3>
+                </div>
             </div>
         </div>
     );
