@@ -10,12 +10,12 @@ const Biography = ({ defaultLanguage }) => {
         <div className="max-w-full h-[640px] flex mb-[50px] max-[1140px]:flex-col max-[1140px]:items-center max-[1140px]:mt-[50px]  max-[1140px]:mb-[400px]">
 
             <div className="flex justify-end items-center w-6/12 max-[1140px]:w-[500px] max-[700px]:w-[350px] max-[400px]:w-[300px] h-full ">
-                <div className="w-[500px]  border-[16px] border-[#2e3033] rounded-xl ml-16 max-[1140px]:ml-0 ">
-                    <Image src={Profile} alt="profile" className="" />
+                <div className="w-[500px]  border-[10px] border-[#454545] rounded-xl ml-16 max-[1140px]:ml-0 ">
+                    <Image src={Profile} alt="profile" className="rounded-lg" />
                 </div>
             </div>
 
-            <div className='w-6/12 max-[1140px]:w-[415px] max-w-fit h-full flex items-center '>
+            <div className='w-6/12 max-[1140px]:w-[370px] max-w-fit h-full flex items-center '>
                 <div className={`flex flex-col w-[550px] mr-5 max-[1140px]:w-[400px] max-[1140px]:mr-0 max-[1140px]:mt-5 max-[1140px]:items-center ${!defaultLanguage ? 'items-end max-[1140px]:items-center' : 'max-[1140px]:items-center'}`}>
                     <h1 className="font-bold mb-2">{defaultLanguage ? 'امیرمحمد هستم' : 'I am Amirmohammad'} </h1>
                     <h2 className="font-bold mb-8">{defaultLanguage ? 'توسعه دهنده فرانت اند وبسایت' : 'a Front-end Developer'}</h2>
@@ -31,17 +31,17 @@ const Biography = ({ defaultLanguage }) => {
                         </h4>
 
                         <ul className="flex mt-5 py-2">
-                            <Link href='/' className="p-5 box-shadow-1 rounded-md ml-4 hover:bg-[#232323] transition duration-300">
+                            <Link href='/' className="p-5 box-shadow-1 shadow-gray-200 rounded-md ml-4 hover:bg-[#3b3b3b] transition duration-300">
                                 <li>
                                     <FaGithub className="text-lg" />
                                 </li>
                             </Link>
-                            <Link href='/' className="p-5 box-shadow-1 rounded-md ml-4 hover:bg-[#232323] transition duration-300">
+                            <Link href='/' className="p-5 box-shadow-1 rounded-md ml-4 hover:bg-[#3b3b3b] transition duration-300">
                                 <li>
                                     <FaInstagram className="text-lg" />
                                 </li>
                             </Link>
-                            <Link href='/' className="p-5 box-shadow-1 rounded-md hover:bg-[#232323] transition duration-300">
+                            <Link href='/' className="p-5 box-shadow-1 rounded-md hover:bg-[#3b3b3b] transition duration-300">
                                 <li>
                                     <FaLinkedin className="text-lg" />
                                 </li>

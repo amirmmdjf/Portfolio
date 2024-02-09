@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 body {
-  background-color: #282828;
-  color: #f9f6ee;
+  background-color: #414141;
+  color: #f1ebd3;
   direction: rtl;
 }
 
@@ -35,8 +35,7 @@ h3 {
 }
 
 .box-shadow-1 {
-  box-shadow: -10px 10px 19px #141618, 10px -10px 19px #262a2e;
-}
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
 
 .box-shadow-2 {
   box-shadow: -10px 10px 19px #141618, 10px -10px 19px #181819d9;
