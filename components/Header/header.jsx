@@ -37,7 +37,7 @@ const Header = ({ languageChangeHandler, defaultLanguage, workSampleScrollHandle
             <div className="absolute   max-[800px]:left-3 max-[800px]:top-4" onClick={menueOpenHandler}>
                 {menuOpen && boxOpen ? (
                     <svg
-                        className="text-gray-100 hover:bg-[#605f5f] transition-all duration-500 cursor-pointer rounded-[50%] h-12 w-12 p-1"
+                        className="text-[#f1ebd3] hover:bg-[#605f5f] transition-all duration-500 cursor-pointer rounded-[50%] h-12 w-12 p-1"
                         xmlns="http://www.w3.org/2000/svg"
                         width="32"
                         height="32"
@@ -52,7 +52,7 @@ const Header = ({ languageChangeHandler, defaultLanguage, workSampleScrollHandle
                 ) : (
                     !menuOpen && boxOpen && (
                         <svg
-                            className="text-gray-100 hover:bg-[#605f5f] transition-all duration-500 cursor-pointer rounded-[50%] h-12 w-12 p-1"
+                            className="text-[#f1ebd3] hover:bg-[#605f5f] transition-all duration-500 cursor-pointer rounded-[50%] h-12 w-12 p-1"
                             xmlns="http://www.w3.org/2000/svg"
                             width="32"
                             height="32"
