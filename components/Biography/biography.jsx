@@ -15,7 +15,7 @@ const Biography = ({ defaultLanguage }) => {
                 </div>
             </div>
 
-            <div className='w-6/12 max-[1140px]:w-[370px] max-w-fit h-full flex items-center '>
+            <div className='w-6/12 max-[1140px]:w-[350px] max-w-fit h-full flex items-center '>
                 <div className={`flex flex-col w-[550px] mr-5 max-[1140px]:w-[400px] max-[1140px]:mr-0 max-[1140px]:mt-5 max-[1140px]:items-center ${!defaultLanguage ? 'items-end max-[1140px]:items-center' : 'max-[1140px]:items-center'}`}>
                     <h1 className="font-bold mb-2">{defaultLanguage ? 'امیرمحمد هستم' : 'I am Amirmohammad'} </h1>
                     <h2 className="font-bold mb-8">{defaultLanguage ? 'توسعه دهنده فرانت اند وبسایت' : 'a Front-end Developer'}</h2>
