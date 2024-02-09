@@ -26,7 +26,7 @@ const MySkills = ({ defaultLanguage }) => {
             <ul className="flex flex-wrap  justify-center">
                 {mySkills.map((item) => (
                     <li key={item.title}
-                        className=" bg-[#efedec]  ml-11 mr-11 mt-5 mb-10 rounded-lg px-10 
+                        className=" bg-[#f1ebd3] ml-11 mr-11 mt-5 mb-10 rounded-lg px-10 
                     text-black w-[300px] h-[250px] flex flex-col justify-center items-center box-shadow-2"
                     >
                         <div className="w-[150px] h-[150px] flex items-center">

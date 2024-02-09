@@ -9,16 +9,20 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 10px;               /* width of the entire scrollbar */
+  width: 10px;
+  /* width of the entire scrollbar */
 }
 
 body::-webkit-scrollbar-track {
-  background: #2e3033;        /* color of the tracking area */
+  background: #2e3033;
+  /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #f9f6ee;    /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
+  background-color: #f9f6ee;
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
   /* border: 3px solid orange;  creates padding around scroll thumb */
 }
 
@@ -35,9 +39,9 @@ h3 {
 }
 
 .box-shadow-1 {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
-
-.box-shadow-2 {
-  box-shadow: -10px 10px 19px #141618, 10px -10px 19px #181819d9;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+.box-shadow-2 {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}

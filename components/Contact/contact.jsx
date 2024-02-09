@@ -20,7 +20,7 @@ const Contact = ({ defaultLanguage }) => {
             <div>
                 <ul className="flex flex-wrap justify-center flex-row-reverse mt-20">
                     {socialData.map((item, index) => (
-                        <li key={index} className=" box-shadow-2 mx-5 px-10 py-3 max-[900px]:my-3 cursor-pointer bg-[#efedec] hover:bg-white transition duration-300 text-black rounded-lg">
+                        <li key={index} className=" box-shadow-2 mx-5 px-10 py-3 max-[900px]:my-3 cursor-pointer bg-[#f1ebd3] hover:bg-white transition duration-300 text-black rounded-lg">
                             <a href={item.url} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center justify-center">
                                 <Image src={item.logo} alt={item.title} width={100} height={100} />
                                 <h2 className="text-[18px] font-semibold pt-2">{item.title}</h2>
@@ -28,7 +28,7 @@ const Contact = ({ defaultLanguage }) => {
                         </li>
                     ))}
                 </ul>
-                <div className="text-center bg-[#efedec] mt-20 text-black text-[24px] max-w-fit m-auto px-8 max-[600px]:w-[400px] max-[600px]:bg-transparent max-[600px]:text-white max-[600px]:shadow-none max-[600px]:mt-10  py-3 rounded-lg box-shadow-2">
+                <div className="text-center bg-[#f1ebd3] mt-20 text-black text-[24px] max-w-fit m-auto px-8 max-[600px]:w-[400px] max-[600px]:bg-transparent max-[600px]:text-white max-[600px]:shadow-none max-[600px]:mt-10  py-3 rounded-lg box-shadow-2">
                     {!defaultLanguage? ':My E-mail' : 'ایمیل من:'}
                     <h3 className="font-semibold pt-2">amirmmdjf2006@gmail.com</h3>
                 </div>
