@@ -6,6 +6,7 @@ body {
   background-color: #414141;
   color: #f1ebd3;
   direction: rtl;
+  overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
