@@ -3,10 +3,12 @@
 @tailwind utilities;
 
 body {
+  width: 100%;
   background-color: #414141;
   color: #f1ebd3;
   direction: rtl;
   overflow-x: hidden;
+  margin: 0;
 }
 
 body::-webkit-scrollbar {
