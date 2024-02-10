@@ -1,11 +1,10 @@
 import SampleWorksCard from '../SampleWork/sampleWorksCard.jsx'
-// import image from "../../public/assets/profile.JPG";
-import Starbucks from '../../public/assets/sampleWorks/Starbucks.PNG'
-import Weather from '../../public/assets/sampleWorks/Weather.PNG'
-import Moon from '../../public/assets/sampleWorks/Moon.PNG'
-import ToDoList from '../../public/assets/sampleWorks/ToDoList.PNG'
-import Dictionary from '../../public/assets/sampleWorks/Dictionary.PNG'
-import SignupPage from '../../public/assets/sampleWorks/SignupPage.PNG'
+import Starbucks from '../../public/assets/sampleWorks/Starbucks.webp'
+import Weather from '../../public/assets/sampleWorks/Weather.webp'
+import Moon from '../../public/assets/sampleWorks/Moon.webp'
+import ToDoList from '../../public/assets/sampleWorks/ToDoList.webp'
+import Dictionary from '../../public/assets/sampleWorks/Dictionary.webp'
+import SignupPage from '../../public/assets/sampleWorks/SignupPage.webp'
 
 
 
