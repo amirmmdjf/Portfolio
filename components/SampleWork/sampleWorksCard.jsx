@@ -17,11 +17,13 @@ const SampleWorksCard = ({ src, title, description, url, defaultLanguage }) => {
 
         >
             <div className="w-[310px] h-[250px] relative">
-                <Image
-                    src={src}
-                    alt="Profile"
-                    className={"object-cover w-[310px] h-[232px] rounded-lg transition duration-500 " + (isHovered ? 'scale-110' : '')}
-                />
+                <Link href={url} target="_blank">
+                    <Image
+                        src={src}
+                        alt="Profile"
+                        className={"object-cover w-[310px] h-[232px] rounded-lg transition duration-500 " + (isHovered ? 'scale-110' : '')}
+                    />
+                </Link>
             </div>
 
             <div className="">
